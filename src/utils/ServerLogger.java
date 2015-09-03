@@ -30,7 +30,7 @@ public class ServerLogger {
             SimpleFormatter formatter = new SimpleFormatter();
             fh.setFormatter(formatter);
 
-        } catch (IOException | SecurityException ex) { //If we ever reach this point im gonna cry
+        } catch (IOException | SecurityException ex) { //Lets hope this is never reached :D
             Logger.getLogger(ServerLogger.class.getName()).log(Level.SEVERE, null, ex);
         }
     }
