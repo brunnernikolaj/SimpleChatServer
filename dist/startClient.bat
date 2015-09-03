@@ -1,0 +1,1 @@
+java -cp EchoServer.jar client.ClientGui 9090 EchoServerNb.cloudapp.net

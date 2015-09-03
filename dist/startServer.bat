@@ -1,0 +1,1 @@
+java -cp EchoServer.jar server.Server
